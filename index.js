@@ -29,7 +29,7 @@ const addBook = (request, response) => {
     });
 }
 
-app.route('/books')
+app.route('/')
     .get(getBooks)
     .post(addBook);
 
